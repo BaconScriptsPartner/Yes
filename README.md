@@ -386,19 +386,6 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Ef hub 🟠 (keyless)",
-	Callback = function()
- loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
-      		print("button pressed")
-  	end    
-})
-
--[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-Tab:AddButton({
 	Name = "TN hub 🟢",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/key 99.txt"))()
@@ -457,19 +444,6 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
-	Name = "Ef hub (but ink game)",
-	Callback = function()
- loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 local Tab = Window:MakeTab({
 	Name = "Tab 10",
 	Icon = "rbxassetid://4483345998",
@@ -488,19 +462,6 @@ local Section = Tab:AddSection({
 
 --[[
 Name = <string> - The name of the section.
-]]
-
-Tab:AddButton({
-	Name = "Ef hub (but forsaken)",
-	Callback = function()
- loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
