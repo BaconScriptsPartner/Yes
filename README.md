@@ -388,9 +388,7 @@ Name = <string> - The name of the section.
 Tab:AddButton({
 	Name = "Ef hub 🟠 (keyless)",
 	Callback = function()
- loadstring(game:HttpGet(
-"https://cdn.exploitingis.fun/loader"
-))()
+ loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
       		print("button pressed")
   	end    
 })
@@ -462,9 +460,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "Ef hub (but ink game)",
 	Callback = function()
- loadstring(game:HttpGet(
-"https://cdn.exploitingis.fun/loader"
-))()
+ loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
       		print("button pressed")
   	end    
 })
@@ -497,9 +493,7 @@ Name = <string> - The name of the section.
 Tab:AddButton({
 	Name = "Ef hub (but forsaken)",
 	Callback = function()
- loadstring(game:HttpGet(
-"https://cdn.exploitingis.fun/loader"
-))()
+ loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
       		print("button pressed")
   	end    
 })
