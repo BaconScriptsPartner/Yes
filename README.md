@@ -521,3 +521,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TheqopThe/robax/refs/
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "(forsaken halycon 🔵)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruOnDiscord/Halcyon/refs/heads/main/loader.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
