@@ -395,7 +395,7 @@ Tab:AddButton({
   	end    
 })
 
---[[
+-[[
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
