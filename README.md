@@ -399,3 +399,30 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "TN hub 🟢",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/key 99.txt"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "soluna 🪯",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/alwaysmesmerizingyou/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua",true))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
