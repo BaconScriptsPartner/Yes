@@ -244,6 +244,11 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({ Name = "uwu.dll (key)🩷", Callback = function()   print("button pressed") end
+})
+
+--[[ Name = - The name of the button. Callback = - The function of the button. ]]
+
 local Tab = Window:MakeTab({
 	Name = "Tab 6",
 	Icon = "rbxassetid://7734058345",
