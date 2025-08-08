@@ -443,3 +443,36 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruOnDiscord/Halcy
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+local Tab = Window:MakeTab({
+	Name = "Tab 10",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "blue lock rivals ⚽"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "tbao hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
