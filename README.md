@@ -244,7 +244,18 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({ Name = "uwu.dll (key)🩷", Callback = function()   print("button pressed") end
+Tab:AddButton({ Name = "uwu.dll (key)🩷", Callback = function()
+local textToCopy = "https://discord.gg/StSN4ytr" -- put the text you want to copy here
+
+local success, message = pcall(function()  
+    setclipboard(textToCopy)  
+end)
+
+if success then  
+    print("text copied to clipboard")  
+else  
+    warn("failed to copy text: " .. message)  
+end  print("button pressed") end
 })
 
 --[[ Name = - The name of the button. Callback = - The function of the button. ]]
