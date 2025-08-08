@@ -512,6 +512,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "prosaken ahh",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheqopThe/robax/refs/heads/main/jumpscare.lua"))()
       		print("button pressed")
   	end    
 })
