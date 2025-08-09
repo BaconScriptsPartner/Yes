@@ -160,12 +160,9 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Volcano aimbot 🌋",
+	Name = "Feel(goat ware)🐐",
 	Callback = function()
- --[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-loadstring(game:HttpGet("https://pastebin.com/raw/qtZt0Nzb"))()
+ loadstring(game:HttpGet("https://pastebin.com/raw/qtZt0Nzb"))()
       		print("button pressed")
   	end    
 })
