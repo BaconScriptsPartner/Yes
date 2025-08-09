@@ -99,6 +99,58 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Fe wallhop (top corner)",
+	Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fake-WallHop-33268"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "anti bang",
+	Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-Bang-Script-39958"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Rc7(Gui)",
+	Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RC7-executor-46857"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Unban Vc",
+	Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Unban-vc-46878"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Tab 2",
 	Icon = "rbxassetid://7743869054",
